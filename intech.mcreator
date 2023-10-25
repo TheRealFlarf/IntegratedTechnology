@@ -1,0 +1,213 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bauxite",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/world/features/ores/BauxiteFeature.java",
+          "src/main/resources/data/intech/worldgen/placed_feature/bauxite.json",
+          "src/main/resources/assets/intech/models/block/bauxite.json",
+          "src/main/resources/data/intech/forge/biome_modifier/bauxite_biome_modifier.json",
+          "src/main/resources/assets/intech/models/item/bauxite.json",
+          "src/main/resources/assets/intech/blockstates/bauxite.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteBlock.java",
+          "src/main/resources/data/intech/worldgen/configured_feature/bauxite.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedBauxite",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_bauxite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/polished_bauxite.json",
+          "src/main/resources/assets/intech/blockstates/polished_bauxite.json",
+          "src/main/resources/assets/intech/models/block/polished_bauxite.json",
+          "src/main/java/net/mcreator/intech/block/PolishedBauxiteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteBricks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/BauxiteBricksBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_bricks.json",
+          "src/main/resources/assets/intech/models/item/bauxite_bricks.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledBauxite",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_bauxite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/ChiseledBauxiteBlock.java",
+          "src/main/resources/assets/intech/blockstates/chiseled_bauxite.json",
+          "src/main/resources/assets/intech/models/item/chiseled_bauxite.json",
+          "src/main/resources/assets/intech/models/block/chiseled_bauxite.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteStairs",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_inner.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteStairsBlock.java",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs.json",
+          "src/main/resources/assets/intech/models/block/bauxite_stairs_outer.json",
+          "src/main/resources/assets/intech/models/item/bauxite_stairs.json",
+          "src/main/resources/assets/intech/blockstates/bauxite_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteSlab",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/intech/block/BauxiteSlabBlock.java",
+          "src/main/resources/assets/intech/blockstates/bauxite_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_slab.json",
+          "src/main/resources/assets/intech/models/item/bauxite_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_slab_full.json",
+          "src/main/resources/assets/intech/models/block/bauxite_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteWall",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/bauxite_wall.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall_side_tall.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall_inventory.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall_post.json",
+          "src/main/resources/assets/intech/models/block/bauxite_wall.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteWallBlock.java",
+          "src/main/resources/assets/intech/models/item/bauxite_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteBrickStairs",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/models/item/bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_stairs_outer.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_stairs.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteBrickStairsBlock.java",
+          "src/main/resources/assets/intech/blockstates/bauxite_brick_stairs.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "BauxiteBrickSlab",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bauxite_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/intech/blockstates/bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_slab_full.json",
+          "src/main/resources/assets/intech/models/item/bauxite_brick_slab.json",
+          "src/main/resources/assets/intech/models/block/bauxite_brick_slab_top.json",
+          "src/main/java/net/mcreator/intech/block/BauxiteBrickSlabBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.intech.bauxite_bricks": "Bauxite Bricks",
+      "block.intech.bauxite": "Bauxite",
+      "block.intech.bauxite_stairs": "Bauxite Stairs",
+      "block.intech.bauxite_brick_stairs": "Bauxite Brick Stairs",
+      "block.intech.chiseled_bauxite": "Chiseled Bauxite",
+      "block.intech.polished_bauxite": "Polished Bauxite",
+      "block.intech.bauxite_wall": "Bauxite Wall",
+      "block.intech.bauxite_slab": "Bauxite Slab",
+      "block.intech.bauxite_brick_slab": "Bauxite Brick Slab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Machinery",
+        "children": []
+      },
+      {
+        "name": "Materials",
+        "children": []
+      },
+      {
+        "name": "Decorative",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "intech",
+    "modName": "Flarf\u0027s Integrated Technology",
+    "version": "1.0.0",
+    "author": "flarf, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.intech",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

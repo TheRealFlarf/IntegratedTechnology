@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "intech:polished_bauxite",
+    "intech:bauxite",
+    "intech:bauxite_bricks",
+    "intech:chiseled_bauxite",
+    "intech:bauxite_stairs",
+    "intech:bauxite_slab",
+    "intech:bauxite_wall",
+    "intech:bauxite_brick_stairs",
+    "intech:bauxite_brick_slab"
+  ]
+}
